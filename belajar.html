@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <title>Ghaniya's Birthday</title>
+</head>
+<body>
+    <section class="bg-pink-50">
+        <div class="flex justify-end p-4">
+            <h1 class="font-medium p-1 mx-2">HIII klik ini</h1>
+            <label
+                for="toggleHtmlHead"
+                class="relative inline-block h-8 w-12 cursor-pointer [-webkit-tap-highlight-color:_transparent]"
+                >
+                <input type="checkbox" id="toggleHtmlHead" class="peer sr-only" />
+
+                <span class="absolute inset-0 m-auto h-2 rounded-full bg-gray-300"></span>
+
+                <span
+                    class="absolute inset-y-0 start-0 m-auto size-6 rounded-full bg-gray-500 transition-all peer-checked:start-6 peer-checked:[&_>_*]:scale-0"
+                >
+                    <span class="absolute inset-0 m-auto size-4 rounded-full bg-gray-200 transition"> </span>
+                </span>
+            </label>
+        </div>
+        <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+          <div class="mx-auto max-w-xl text-center">
+            <h1 id="type" class="text-3xl font-extrabold sm:text-5xl">
+            </h1>
+      
+            <p class="mt-4 sm:text-xl/relaxed">
+              Hii kakak, karena kamu mau belajar web tapi tidak jadi jadi, aku akhirnya membuatkan ini. Eiittss ini bukan cuman hadiah ulang tahun kamu tapi ini sekaligus modul yang bisa
+              kamu ikutin untuk pertama kali memulai belajar web
+            </p>
+      
+            <div class="mt-8 flex flex-wrap justify-center gap-4">
+              <a
+                class="block w-full rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
+                href="#memory"
+              >
+                Mulaiii
+              </a>
+      
+              <a
+                class="block w-full rounded px-12 py-3 text-sm font-medium text-red-600 shadow hover:text-pink-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
+                href="index.html"
+              >
+                pls Take me back, sudah gakuat
+              </a>
+    
+              
+            </div>
+
+            
+          </div>
+        </div>
+        <div class="w-full">
+
+            <pre id="htmlOutputHead" class="hidden mt-4 bg-gray-100 p-4 rounded text-left text-sm overflow-x-auto"></pre>
+        </div>
+      </section>
+      <svg class="transform scale-y-[-1]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fdf2f8 "
+          fill-opacity="1"
+          d="M0,32L21.8,53.3C43.6,75,87,117,131,122.7C174.5,128,218,96,262,69.3C305.5,43,349,21,393,37.3C436.4,53,480,107,524,106.7C567.3,107,611,53,655,42.7C698.2,32,742,64,785,112C829.1,160,873,224,916,234.7C960,245,1004,203,1047,181.3C1090.9,160,1135,160,1178,181.3C1221.8,203,1265,245,1309,224C1352.7,203,1396,117,1418,74.7L1440,32L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
+        ></path>
+      </svg>
+      <section id="memory">
+        <div class="flex justify-end p-4">
+            <h1 class="font-medium p-1 mx-2">HIII klik ini</h1>
+            <label
+                for="toggleHtmlMemo"
+                class="relative inline-block h-8 w-12 cursor-pointer [-webkit-tap-highlight-color:_transparent]"
+                >
+                <input type="checkbox" id="toggleHtmlMemo" class="peer sr-only" />
+
+                <span class="absolute inset-0 m-auto h-2 rounded-full bg-gray-300"></span>
+
+                <span
+                    class="absolute inset-y-0 start-0 m-auto size-6 rounded-full bg-gray-500 transition-all peer-checked:start-6 peer-checked:[&_>_*]:scale-0"
+                >
+                    <span class="absolute inset-0 m-auto size-4 rounded-full bg-gray-200 transition"> </span>
+                </span>
+            </label>
+        </div>
+        <h2 class="text-3xl  py-5 font-bold text-gray-900 sm:text-4xl text-center">Memories.</h2>
+        <div class="">
+            <div class="relative flex min-h-screen flex-col items-center justify-center">
+              <div class="carousel scrollbar-hide flex w-full snap-x snap-mandatory gap-4 overflow-x-scroll scroll-smooth">
+                
+                <div id="card" class="relative aspect-[1/1] w-[85%] shrink-0 snap-start snap-always md:w-[calc(33.33%-(32px/3))]">
+                  <div class="absolute inset-0 flex items-center justify-center">
+                    <article class="overflow-hidden mx-3 rounded-lg shadow transition hover:shadow-lg">
+                      <img
+                        alt=""
+                        src="img/20september2023.jpg"
+                        class="h-56 w-full object-cover"
+                      />
+                    
+                      <div class="bg-white p-4 sm:p-6">
+                        <time datetime="2022-10-10" class="block text-xs text-gray-500"> 20 September 2023 </time>
+                    
+                        <a href="#">
+                          <h3 class="mt-0.5 text-lg text-gray-900 font-medium">Tolong puh sepuh🙏</h3>
+                        </a>
+                    
+                        <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                          HAHAHAHAH ternyata ini chat pertama km meminta tolong pemdas yang jujur itu memang susah untuk awal awal. Sudah lama sekali ternyata semester 1 deymm abis ini kita lulus
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="relative aspect-[1/1] w-[85%] shrink-0 snap-start snap-always md:w-[calc(33.33%-(32px/3))]">
+                  <div class="absolute inset-0 flex items-center justify-center">
+                    <article class="overflow-hidden mx-3 rounded-lg shadow transition hover:shadow-lg">
+                      <img
+                        alt=""
+                        src="img/30maret2024.jpg"
+                        class="h-56 w-full object-cover"
+                      />
+                    
+                      <div class="bg-white p-4 sm:p-6">
+                        <time datetime="2022-10-10" class="block text-xs text-gray-500"> 30 Maret 2024 </time>
+                    
+                        <a href="#">
+                          <h3 class="mt-0.5 text-lg text-gray-900 font-medium">Proker Pertama</h3>
+                        </a>
+                    
+                        <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                          Filkompreneur!! mungkin ini adalah pertama kalinya ak tidak ngapa ngapain di satu proker. Disini banyak sekali kenangannya
+                          dari mengantar km pulang sampai pertama kali photoboothku lahir 😎
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="relative aspect-[1/1] w-[85%] shrink-0 snap-start snap-always md:w-[calc(33.33%-(32px/3))]">
+                  <div class="absolute inset-0 flex items-center justify-center">
+                    <article class="overflow-hidden mx-3 rounded-lg shadow transition hover:shadow-lg">
+                      <img
+                        alt=""
+                        src="img/3april2024.jpg"
+                        class="h-56 w-full object-cover"
+                      />
+                    
+                      <div class="bg-white p-4 sm:p-6">
+                        <time datetime="2022-10-10" class="block text-xs text-gray-500"> 3 April 2024 </time>
+                    
+                        <a href="#">
+                          <h3 class="mt-0.5 text-lg text-gray-900 font-medium">MODUUUSSSSS!!!</h3>
+                        </a>
+                    
+                        <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                         Ternyata begini yhh modus km, salah transfer segala. Kalau ini bukan modus mungkin memang saat itu km memikirkan ak terus atau km mw menafkahiku?😱😱
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="relative aspect-[1/1] w-[85%] shrink-0 snap-start snap-always md:w-[calc(33.33%-(32px/3))]">
+                  <div class="absolute inset-0 flex items-center justify-center">
+                    <article class="overflow-hidden mx-3 rounded-lg shadow transition hover:shadow-lg">
+                      <img
+                        alt=""
+                        src="img/1mei2024.jpg"
+                        class="h-56 w-full object-cover"
+                      />
+                    
+                      <div class="bg-white p-4 sm:p-6">
+                        <time datetime="2022-10-10" class="block text-xs text-gray-500"> 1 Mei 2024 </time>
+                    
+                        <a href="#">
+                          <h3 class="mt-0.5 text-lg text-gray-900 font-medium">First Pap HAHAHAH</h3>
+                        </a>
+                    
+                        <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                          Ini adalah pap pertama km dan langsung berada di genggamanku, deymmm.
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="relative aspect-[1/1] w-[85%] shrink-0 snap-start snap-always md:w-[calc(33.33%-(32px/3))]">
+                  <div class="absolute inset-0 flex items-center justify-center">
+                    <article class="overflow-hidden mx-3 rounded-lg shadow transition hover:shadow-lg">
+                      <img
+                        alt=""
+                        src="img/4mei2024.jpg"
+                        class="h-56 w-full object-cover"
+                      />
+                    
+                      <div class="bg-white p-4 sm:p-6">
+                        <time datetime="2022-10-10" class="block text-xs text-gray-500"> 4 Mei 2024 </time>
+                    
+                        <a href="#">
+                          <h3 class="mt-0.5 text-lg text-gray-900 font-medium">Contact Name</h3>
+                        </a>
+                    
+                        <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                          Inilah nama kontak ak yg sesungguhnya, bukan ☆*: .｡. o(≧▽≦)o .｡.:*☆ atau apa itu yg ada di hp km sekarang 
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="relative aspect-[1/1] w-[85%] shrink-0 snap-start snap-always md:w-[calc(33.33%-(32px/3))]">
+                  <div class="absolute inset-0 flex items-center justify-center">
+                    <article class="overflow-hidden mx-3 rounded-lg shadow transition hover:shadow-lg">
+                      <img
+                        alt=""
+                        src="img/18mei2024.jpg"
+                        class="h-56 w-full object-cover"
+                      />
+                    
+                      <div class="bg-white p-4 sm:p-6">
+                        <time datetime="2022-10-10" class="block text-xs text-gray-500"> 18 Mei 2024 </time>
+                    
+                        <a href="#">
+                          <h3 class="mt-0.5 text-lg text-gray-900 font-medium">km DDM yh?</h3>
+                        </a>
+                    
+                        <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                          HAHAHAHAHA ini sangat sangat moodbooster ketik ak mw tournament kechill besoknya. Untung menang, karena ak ingat Kalau
+                          tidak menang km tidak mw ngomong sm aku lagi
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                
+                
+            
+                <!-- end of carousel -->
+              </div>
+              
+              <div class="pagination my-4 flex gap-2">
+                <span class="h-3 w-3 ease-out duration-300 rounded-full bg-black w-8"></span>
+                <span class="h-3 w-3 ease-out duration-300 rounded-full bg-black"></span>
+                <span class="h-3 w-3 ease-out duration-300 rounded-full bg-black"></span>
+                <span class="h-3 w-3 ease-out duration-300 rounded-full bg-black"></span>
+                <span class="h-3 w-3 ease-out duration-300 rounded-full bg-black"></span>
+                <span class="h-3 w-3 ease-out duration-300 rounded-full bg-black md:hidden"></span>
+                <span class="h-3 w-3 ease-out duration-300 rounded-full bg-black md:hidden"></span>
+              </div>
+              
+              <div>
+                <button class="prev-btn bg-gray-200 p-2">Prev</button>
+                <button class="next-btn bg-gray-200 p-2">Next</button>
+              </div>
+            </div>
+         
+          </div>
+          <pre id="htmlOutputMemo" class="hidden mt-4 bg-gray-100 p-4 rounded text-left text-sm overflow-x-auto"></pre>
+      </section>
+
+      <section class="funfact">
+        <div class="flex justify-end p-4">
+            <h1 class="font-medium p-1 mx-2">HIII klik ini</h1>
+            <label
+                for="toggleHtmlFun"
+                class="relative inline-block h-8 w-12 cursor-pointer [-webkit-tap-highlight-color:_transparent]"
+                >
+                <input type="checkbox" id="toggleHtmlFun" class="peer sr-only" />
+
+                <span class="absolute inset-0 m-auto h-2 rounded-full bg-gray-300"></span>
+
+                <span
+                    class="absolute inset-y-0 start-0 m-auto size-6 rounded-full bg-gray-500 transition-all peer-checked:start-6 peer-checked:[&_>_*]:scale-0"
+                >
+                    <span class="absolute inset-0 m-auto size-4 rounded-full bg-gray-200 transition"> </span>
+                </span>
+            </label>
+        </div>
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+            <div class="mx-auto max-w-3xl text-center">
+              <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Mengenal Ghaniya Lebih Dekat</h2>
+          
+              <p class="mt-4 text-gray-500 sm:text-xl">
+                beberapa Funfact tentang Ghaniya
+              </p>
+            </div>
+          
+            <dl id="list" class="mt-6 grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4">
+                <div class="flex flex-col rounded-lg bg-pink-50 px-4 py-8 text-center">
+                    <dt class="order-last text-lg font-medium text-gray-500">Zodiac</dt>
+              
+                    <dd class="text-4xl font-extrabold text-pink-600 md:text-5xl">Capricorn</dd>
+                  </div>
+                  <div class="flex flex-col rounded-lg bg-pink-50 px-4 py-8 text-center">
+                    <dt class="order-last text-lg font-medium text-gray-500">Age</dt>
+              
+                    <dd id="age" class="text-4xl font-extrabold text-pink-600 md:text-5xl"></dd>
+                </div>
+              <div class="flex flex-col rounded-lg bg-pink-50 px-4 py-8 text-center">
+                <dt class="order-last text-lg font-medium text-gray-500">Total Days</dt>
+                <dd id="daysLived" class="text-4xl font-extrabold text-pink-600 md:text-5xl"></dd>
+              </div>
+          
+              <div class="flex flex-col rounded-lg bg-pink-50 px-4 py-8 text-center">
+                <dt class="order-last text-lg font-medium text-gray-500">Total Hours</dt>
+                <dd id="hoursLived" class="text-4xl font-extrabold text-pink-600 md:text-5xl"></dd>
+              </div>
+    
+              
+            </dl>
+          </div>
+    
+          <section class="funfact">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold mb-8" data-aos="fade-up">More Ghaniya's Funfact</h2>
+            </div>
+            <div class="flex justify-around">
+                
+                <div class="flex justify-center" data-aos="fade-down-left">
+                    <div class="card bg-white shadow-lg rounded-lg overflow-hidden w-72">
+                        <img src="img/capricorn.jpeg" class="w-full h-48 object-cover" alt="...">
+                        <div class="p-4">
+                            <h5 class="text-xl font-semibold mb-2">A Capricorns!</h5>
+                            <p class="text-gray-600 mb-4">She is the cutest Capricorns alive! ❤️</p>
+                            <a href="https://www.astrology-zodiac-signs.com/zodiac-signs/capricorn/" class="btn bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center" data-aos="fade-up-right">
+                    <div class="card bg-white shadow-lg rounded-lg overflow-hidden w-72">
+                        <img src="img/moon.jpg" class="w-full h-48 object-cover" alt="...">
+                        <div class="p-4">
+                            <h5 class="text-xl font-semibold mb-2">Wonderful Personalities!</h5>
+                            <p class="text-gray-600 mb-4">Ghaniya's beautifully wonderful personalities.</p>
+                            <a href="https://www.yourmoonphase.com/collections/waxing-crescent-ii-moon" class="btn bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center" data-aos="fade-up-left">
+                    <div class="card bg-white shadow-lg rounded-lg overflow-hidden w-72">
+                        <img src="img/world.jpg" class="w-full h-48 object-cover" alt="...">
+                        <div class="p-4">
+                            <h5 class="text-xl font-semibold mb-2">Lot Things Happened!</h5>
+                            <p class="text-gray-600 mb-4">She is one of the greatest things happen to everyone's life.</p>
+                            <a href="http://whathappenedinmybirthyear.com/" class="btn bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <pre id="htmlOutputFun" class="hidden mt-4 bg-gray-100 p-4 rounded text-left text-sm overflow-x-auto"></pre>
+      </section>
+      
+      <div class="justify-center text-center mt-20 p-4 bg-pink-300 ">
+        <h1 class="">Disini isinya hanya snippetnya saja hehe, untuk lebih jelasnya kamu bisa membuka Source Code dari web ini atau hubungi pemilik website supaya diajari secara langsung xixixi</h1>
+        
+
+        <!-- Pill -->
+
+        <a
+        class="group inline-block rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+        href="#"
+        >
+        <span
+        class="block rounded-full bg-white px-8 py-3 text-sm font-medium group-hover:bg-transparent"
+        >
+        Go to Source Code
+        </span>
+        </a>
+      </div>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f472b6" fill-opacity="1" d="M0,192L34.3,181.3C68.6,171,137,149,206,138.7C274.3,128,343,128,411,149.3C480,171,549,213,617,213.3C685.7,213,754,171,823,176C891.4,181,960,235,1029,245.3C1097.1,256,1166,224,1234,213.3C1302.9,203,1371,213,1406,218.7L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    <section class="footer">
+        <div class="text-center bg-pink-400 p-4">
+        
+            <p>Made by <strong>Azkal Baihaqi</strong> with love!</p>
+        </div>
+
+        
+   
+      <script src="script.js"></script>
+</body>
+</html>
